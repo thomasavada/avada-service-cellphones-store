@@ -35,6 +35,8 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/78FD7174-0C85-4E5D-A07D-4BD660CAF818.webp",
+        "image_2": "shopify:\/\/shop_images\/mo-ban-xiaomi-pad-6-slide.webp",
         "image_overlay_opacity": 40,
         "image_height": "small",
         "desktop_content_position": "bottom-center",
