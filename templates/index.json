@@ -35,8 +35,6 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/78FD7174-0C85-4E5D-A07D-4BD660CAF818.webp",
-        "image_2": "shopify:\/\/shop_images\/mo-ban-xiaomi-pad-6-slide.webp",
         "image_overlay_opacity": 40,
         "image_height": "small",
         "desktop_content_position": "bottom-center",
@@ -212,6 +210,95 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "b7a581ff-6380-4455-b174-d6f92afaa493": {
+      "type": "collection-list",
+      "blocks": {
+        "0dfd46bd-4b63-4943-a476-940be963134b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--20310829924644__b7a581ff-6380-4455-b174-d6f92afaa493-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--20310829924644__b7a581ff-6380-4455-b174-d6f92afaa493-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--20310829924644__b7a581ff-6380-4455-b174-d6f92afaa493-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "ab182369-5cde-47a5-9fcb-45d9b777a917": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "7af7eab7-37f8-4df1-ab8a-0dc45f5ebd42": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "87c269d9-0e95-4cf3-a70a-99d04cf179f6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "975b191f-f6d3-4406-a2c8-6cf2ced7ad29": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "f4b875e3-af2b-4e8c-9bd9-e53dc8d9ee21": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "e40813bd-0dc6-4904-9da2-81e96fd4b4d2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "0dfd46bd-4b63-4943-a476-940be963134b",
+        "template--20310829924644__b7a581ff-6380-4455-b174-d6f92afaa493-featured_collection-1",
+        "template--20310829924644__b7a581ff-6380-4455-b174-d6f92afaa493-featured_collection-2",
+        "template--20310829924644__b7a581ff-6380-4455-b174-d6f92afaa493-featured_collection-3",
+        "ab182369-5cde-47a5-9fcb-45d9b777a917",
+        "7af7eab7-37f8-4df1-ab8a-0dc45f5ebd42",
+        "87c269d9-0e95-4cf3-a70a-99d04cf179f6",
+        "975b191f-f6d3-4406-a2c8-6cf2ced7ad29",
+        "f4b875e3-af2b-4e8c-9bd9-e53dc8d9ee21",
+        "e40813bd-0dc6-4904-9da2-81e96fd4b4d2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -220,6 +307,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "b7a581ff-6380-4455-b174-d6f92afaa493"
   ]
 }
