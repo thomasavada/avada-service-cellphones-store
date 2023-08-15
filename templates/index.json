@@ -269,6 +269,65 @@
         "padding_top": 32,
         "padding_bottom": 36
       }
+    },
+    "adfdb998-2224-4cb4-822c-62ecf459b3cd": {
+      "type": "primary-secondary-section",
+      "blocks": {
+        "template--20310829924644__adfdb998-2224-4cb4-822c-62ecf459b3cd-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ipadth7-new.webp"
+          }
+        },
+        "template--20310829924644__adfdb998-2224-4cb4-822c-62ecf459b3cd-slide-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/linh-vat-sliding-1.webp"
+          }
+        },
+        "template--20310829924644__adfdb998-2224-4cb4-822c-62ecf459b3cd-slide-3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hot-30-sliding-0012.webp"
+          }
+        },
+        "template--20310829924644__adfdb998-2224-4cb4-822c-62ecf459b3cd-right-banner-item-1": {
+          "type": "right-banner-item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ipadth7-new.webp"
+          }
+        },
+        "template--20310829924644__adfdb998-2224-4cb4-822c-62ecf459b3cd-right-banner-item-2": {
+          "type": "right-banner-item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rightbannerts9.webp"
+          }
+        },
+        "template--20310829924644__adfdb998-2224-4cb4-822c-62ecf459b3cd-right-banner-item-3": {
+          "type": "right-banner-item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rightbannerts9.webp"
+          }
+        }
+      },
+      "block_order": [
+        "template--20310829924644__adfdb998-2224-4cb4-822c-62ecf459b3cd-slide-1",
+        "template--20310829924644__adfdb998-2224-4cb4-822c-62ecf459b3cd-slide-2",
+        "template--20310829924644__adfdb998-2224-4cb4-822c-62ecf459b3cd-slide-3",
+        "template--20310829924644__adfdb998-2224-4cb4-822c-62ecf459b3cd-right-banner-item-1",
+        "template--20310829924644__adfdb998-2224-4cb4-822c-62ecf459b3cd-right-banner-item-2",
+        "template--20310829924644__adfdb998-2224-4cb4-822c-62ecf459b3cd-right-banner-item-3"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
@@ -278,6 +337,7 @@
     "collage",
     "video",
     "multicolumn",
-    "b7a581ff-6380-4455-b174-d6f92afaa493"
+    "b7a581ff-6380-4455-b174-d6f92afaa493",
+    "adfdb998-2224-4cb4-822c-62ecf459b3cd"
   ]
 }
