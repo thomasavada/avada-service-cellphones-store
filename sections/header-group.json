@@ -50,10 +50,36 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "c3e347fc-69f2-45f9-9b80-312ae9df2f44": {
+      "type": "announcement-bar",
+      "blocks": {
+        "sections--20310829596964__c3e347fc-69f2-45f9-9b80-312ae9df2f44-announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": "",
+            "imageUrl": ""
+          }
+        }
+      },
+      "block_order": [
+        "sections--20310829596964__c3e347fc-69f2-45f9-9b80-312ae9df2f44-announcement-1"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
     }
   },
   "order": [
     "284e3842-085c-4b7a-ad19-17e69350b210",
-    "header"
+    "header",
+    "c3e347fc-69f2-45f9-9b80-312ae9df2f44"
   ]
 }
