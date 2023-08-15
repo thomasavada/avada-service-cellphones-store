@@ -1,0 +1,61 @@
+<div class="row" style="background: {{ section.settings.bg_color }}">
+  {%- for block in section.blocks -%}
+    <div class="col-sm-4">
+      {%- if block.settings.image -%}
+        {{
+        block.settings.image
+        | image_url: width: 600
+        | image_tag: loading: 'lazy', sizes: sizes, widths: widths, width: '100%', height: 'auto'
+        }}
+      {%- else -%}
+        {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+    </div>
+  {%- endfor -%}
+</div>
+
+{% schema %}
+{
+  "name": "Top Announcement",
+  "class": "section",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background color",
+      "default": "#e9efff"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Top Announcement",
+      "blocks": [
+        {
+          "type": "image-item"
+        },
+        {
+          "type": "image-item"
+        },
+        {
+          "type": "image-item"
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image-item",
+      "name": "Item",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.slideshow.blocks.slide.settings.image.label"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
