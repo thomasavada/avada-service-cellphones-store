@@ -75,6 +75,7 @@
         class="product__info-container{% if section.settings.enable_sticky_info %} product__column-sticky{% endif %}"
       >
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
+        {{ product.metafields.custom.upgrade_version_price }}
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when '@app' -%}
@@ -418,7 +419,7 @@
                 block: block,
                 share_link: share_url
               %}
-            
+
             {%- when 'variant_picker' -%}
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
             {%- when 'buy_buttons' -%}
@@ -550,11 +551,6 @@
           {{ 'products.product.view_full_details' | t }}
           {% render 'icon-arrow' %}
         </a>
-                            <div>
-                              Upgrade price
-                               {{ product.metafields.custom.upgrade_version_price }}
-                            </div>
-                         
       </product-info>
     </div>
     {%- if section.settings.media_position == 'right' -%}
