@@ -1,5 +1,64 @@
 {
   "sections": {
+    "24e33cbf-a266-4b38-8bbb-1677f2c2eaff": {
+      "type": "primary-secondary-section",
+      "blocks": {
+        "template--20437929623844__24e33cbf-a266-4b38-8bbb-1677f2c2eaff-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hot-30-sliding-0012.webp"
+          }
+        },
+        "template--20437929623844__24e33cbf-a266-4b38-8bbb-1677f2c2eaff-slide-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pre-wf-1000xm5-slide.webp"
+          }
+        },
+        "template--20437929623844__24e33cbf-a266-4b38-8bbb-1677f2c2eaff-slide-3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/redmi_watch_3_acitve_sliding.webp"
+          }
+        },
+        "template--20437929623844__24e33cbf-a266-4b38-8bbb-1677f2c2eaff-right-banner-item-1": {
+          "type": "right-banner-item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/asus_tuf.webp"
+          }
+        },
+        "template--20437929623844__24e33cbf-a266-4b38-8bbb-1677f2c2eaff-right-banner-item-2": {
+          "type": "right-banner-item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ipadth7-new.webp"
+          }
+        },
+        "template--20437929623844__24e33cbf-a266-4b38-8bbb-1677f2c2eaff-right-banner-item-3": {
+          "type": "right-banner-item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rightbannerts9.webp"
+          }
+        }
+      },
+      "block_order": [
+        "template--20437929623844__24e33cbf-a266-4b38-8bbb-1677f2c2eaff-slide-1",
+        "template--20437929623844__24e33cbf-a266-4b38-8bbb-1677f2c2eaff-slide-2",
+        "template--20437929623844__24e33cbf-a266-4b38-8bbb-1677f2c2eaff-slide-3",
+        "template--20437929623844__24e33cbf-a266-4b38-8bbb-1677f2c2eaff-right-banner-item-1",
+        "template--20437929623844__24e33cbf-a266-4b38-8bbb-1677f2c2eaff-right-banner-item-2",
+        "template--20437929623844__24e33cbf-a266-4b38-8bbb-1677f2c2eaff-right-banner-item-3"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -237,55 +296,13 @@
           "settings": {
             "collection": "man-hinh"
           }
-        },
-        "ab182369-5cde-47a5-9fcb-45d9b777a917": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "7af7eab7-37f8-4df1-ab8a-0dc45f5ebd42": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "87c269d9-0e95-4cf3-a70a-99d04cf179f6": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "975b191f-f6d3-4406-a2c8-6cf2ced7ad29": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "f4b875e3-af2b-4e8c-9bd9-e53dc8d9ee21": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "e40813bd-0dc6-4904-9da2-81e96fd4b4d2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
         }
       },
       "block_order": [
         "0dfd46bd-4b63-4943-a476-940be963134b",
         "template--20310829924644__b7a581ff-6380-4455-b174-d6f92afaa493-featured_collection-1",
         "template--20310829924644__b7a581ff-6380-4455-b174-d6f92afaa493-featured_collection-2",
-        "template--20310829924644__b7a581ff-6380-4455-b174-d6f92afaa493-featured_collection-3",
-        "ab182369-5cde-47a5-9fcb-45d9b777a917",
-        "7af7eab7-37f8-4df1-ab8a-0dc45f5ebd42",
-        "87c269d9-0e95-4cf3-a70a-99d04cf179f6",
-        "975b191f-f6d3-4406-a2c8-6cf2ced7ad29",
-        "f4b875e3-af2b-4e8c-9bd9-e53dc8d9ee21",
-        "e40813bd-0dc6-4904-9da2-81e96fd4b4d2"
+        "template--20310829924644__b7a581ff-6380-4455-b174-d6f92afaa493-featured_collection-3"
       ],
       "settings": {
         "title": "Đồ công nghệ",
@@ -302,6 +319,7 @@
     }
   },
   "order": [
+    "24e33cbf-a266-4b38-8bbb-1677f2c2eaff",
     "image_banner",
     "rich_text",
     "featured_collection",
