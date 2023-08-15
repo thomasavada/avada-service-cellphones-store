@@ -8,14 +8,32 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "Bao Hanh",
             "link": "",
-            "imageUrl": ""
+            "imageUrl": "https:\/\/cdn2.cellphones.com.vn\/x30,webp,q100\/https:\/\/dashboard.cellphones.com.vn\/storage\/top-banner-chinh-sach-bao-hanh-doi-tra.png"
+          }
+        },
+        "6961e396-3929-4b0f-92b1-c09bbba688c0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Doi tra",
+            "link": "",
+            "imageUrl": "https:\/\/cdn2.cellphones.com.vn\/x30,webp,q100\/https:\/\/dashboard.cellphones.com.vn\/storage\/top-banner-chinh-sach-bao-hanh-doi-tra.png"
+          }
+        },
+        "d6a731da-736e-48ee-8c5a-a03818af0689": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free ship",
+            "link": "",
+            "imageUrl": "https:\/\/cdn2.cellphones.com.vn\/x30,webp,q100\/https:\/\/dashboard.cellphones.com.vn\/storage\/top-banner-giao-nhanh-mien-phi.png"
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "6961e396-3929-4b0f-92b1-c09bbba688c0",
+        "d6a731da-736e-48ee-8c5a-a03818af0689"
       ],
       "settings": {
         "color_scheme": "",
