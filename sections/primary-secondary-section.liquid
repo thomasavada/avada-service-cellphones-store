@@ -112,47 +112,50 @@
                         data-speed="{{ section.settings.change_slides_speed }}"
                 >
                     {%- for block in section.blocks -%}
-                        <style>
-                            #Slide-{{ section.id }}-{{ forloop.index }} .banner__media::after {
-                                opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
-                            }
-                        </style>
-                        <div
-                                class="slideshow__slide grid__item grid--1-col slider__slide"
-                                id="Slide-{{ section.id }}-{{ forloop.index }}"
-                                {{ block.shopify_attributes }}
-                                role="group"
-                                aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
-                                aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
-                                tabindex="-1"
-                        >
-                            <div class="slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
-                                {%- if block.settings.image -%}
-                                    {%- liquid
-                                        assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
-                                        if section.settings.image_behavior == 'ambient'
-                                            assign sizes = '120vw'
-                                            assign widths = '450, 660, 900, 1320, 1800, 2136, 2400, 3600, 7680'
-                                        else
-                                            assign sizes = '100vw'
-                                            assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
-                                        endif
-                                    -%}
-                                    {{
-                                    block.settings.image
-                                    | image_url: width: 3840
-                                    | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths
-                                    }}
-                                {%- else -%}
-                                    {%- assign placeholder_slide = forloop.index | modulo: 2 -%}
-                                    {%- if placeholder_slide == 1 -%}
-                                        {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
+                        {% if block.type == 'slide' %}
+                            <style>
+                                #Slide-{{ section.id }}-{{ forloop.index }} .banner__media::after {
+                                    opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
+                                }
+                            </style>
+                            <div
+                                    class="slideshow__slide grid__item grid--1-col slider__slide"
+                                    id="Slide-{{ section.id }}-{{ forloop.index }}"
+                                    {{ block.shopify_attributes }}
+                                    role="group"
+                                    aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
+                                    aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
+                                    tabindex="-1"
+                            >
+                                <div class="slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
+                                    {%- if block.settings.image -%}
+                                        {%- liquid
+                                            assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
+                                            if section.settings.image_behavior == 'ambient'
+                                                assign sizes = '120vw'
+                                                assign widths = '450, 660, 900, 1320, 1800, 2136, 2400, 3600, 7680'
+                                            else
+                                                assign sizes = '100vw'
+                                                assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+                                            endif
+                                        -%}
+                                        {{
+                                        block.settings.image
+                                        | image_url: width: 3840
+                                        | image_tag: loading: 'lazy', height: height, sizes: sizes, widths: widths
+                                        }}
                                     {%- else -%}
-                                        {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                                        {%- assign placeholder_slide = forloop.index | modulo: 2 -%}
+                                        {%- if placeholder_slide == 1 -%}
+                                            {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
+                                        {%- else -%}
+                                            {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                                        {%- endif -%}
                                     {%- endif -%}
-                                {%- endif -%}
+                                </div>
                             </div>
-                        </div>
+                        {% endif %}
+
                     {%- endfor -%}
                 </div>
                 {%- if section.blocks.size > 1 and section.settings.auto_rotate == false -%}
@@ -230,7 +233,19 @@
             </slideshow-component>
         </div>
         <div class="col-sm-3">
-            One of three columns
+            <div class='row flex-column'>
+                {%- for block in section.blocks -%}
+                    {% if block.type == 'right-banner-item' %}
+                        <div class='col-12'>
+                            {{
+                            block.settings.image
+                            | image_url: width: 600
+                            | image_tag: loading: 'lazy', sizes: sizes, widths: widths, width: '100%', height: 'auto'
+                            }}
+                        </div>
+                    {% endif %}
+                {%- endfor -%}
+            </div>
         </div>
     </div>
 </div>
@@ -241,7 +256,10 @@
   "class": "section",
   "tag": "section",
   "disabled_on": {
-    "groups": ["header", "footer"]
+    "groups": [
+      "header",
+      "footer"
+    ]
   },
   "presets": [
     {
@@ -252,6 +270,18 @@
         },
         {
           "type": "slide"
+        },
+        {
+          "type": "slide"
+        },
+        {
+          "type": "right-banner-item"
+        },
+        {
+          "type": "right-banner-item"
+        },
+        {
+          "type": "right-banner-item"
         }
       ]
     }
@@ -379,6 +409,18 @@
     {
       "type": "slide",
       "name": "t:sections.slideshow.blocks.slide.name",
+      "limit": 5,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.slideshow.blocks.slide.settings.image.label"
+        }
+      ]
+    },
+    {
+      "type": "right-banner-item",
+      "name": "Banner Item",
       "limit": 5,
       "settings": [
         {
