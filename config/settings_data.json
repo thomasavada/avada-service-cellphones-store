@@ -2,9 +2,10 @@
   "current": {
     "logo": "shopify:\/\/shop_images\/images.png",
     "logo_width": 90,
-    "type_header_font": "assistant_n4",
+    "favicon": "shopify:\/\/shop_images\/logo-cps.webp",
+    "type_header_font": "roboto_n4",
     "heading_scale": 100,
-    "type_body_font": "assistant_n4",
+    "type_body_font": "roboto_n4",
     "body_scale": 100,
     "page_width": 1200,
     "spacing_sections": 0,
@@ -139,9 +140,9 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "text": "#121212",
-          "button": "#121212",
-          "button_label": "#ffffff",
+          "text": "#4a4a4a",
+          "button": "#d70018",
+          "button_label": "#fff",
           "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
@@ -181,11 +182,11 @@
       },
       "accent-2": {
         "settings": {
-          "background": "#334fb4",
+          "background": "#d70018",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
-          "button_label": "#334fb4",
+          "button_label": "#d70018",
           "secondary_button_label": "#ffffff",
           "shadow": "#121212"
         }
