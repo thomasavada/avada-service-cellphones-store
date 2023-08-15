@@ -2,47 +2,35 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "announcement-bar": {
-      "type": "announcement-bar",
+    "284e3842-085c-4b7a-ad19-17e69350b210": {
+      "type": "top-annoucement",
       "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
+        "sections--20310829596964__284e3842-085c-4b7a-ad19-17e69350b210-image-item-1": {
+          "type": "image-item",
           "settings": {
-            "text": "Bao Hanh",
-            "link": "",
-            "imageUrl": "https:\/\/cdn2.cellphones.com.vn\/x30,webp,q100\/https:\/\/dashboard.cellphones.com.vn\/storage\/top-banner-chinh-sach-bao-hanh-doi-tra.png"
+            "image": "shopify:\/\/shop_images\/top-banner-giao-nhanh-mien-phi.webp"
           }
         },
-        "6961e396-3929-4b0f-92b1-c09bbba688c0": {
-          "type": "announcement",
+        "sections--20310829596964__284e3842-085c-4b7a-ad19-17e69350b210-image-item-2": {
+          "type": "image-item",
           "settings": {
-            "text": "Doi tra",
-            "link": "",
-            "imageUrl": "https:\/\/cdn2.cellphones.com.vn\/x30,webp,q100\/https:\/\/dashboard.cellphones.com.vn\/storage\/top-banner-chinh-sach-bao-hanh-doi-tra.png"
+            "image": "shopify:\/\/shop_images\/top-banner-chinh-hang-xuat-vat-day-du.webp"
           }
         },
-        "d6a731da-736e-48ee-8c5a-a03818af0689": {
-          "type": "announcement",
+        "sections--20310829596964__284e3842-085c-4b7a-ad19-17e69350b210-image-item-3": {
+          "type": "image-item",
           "settings": {
-            "text": "Free ship",
-            "link": "",
-            "imageUrl": "https:\/\/cdn2.cellphones.com.vn\/x30,webp,q100\/https:\/\/dashboard.cellphones.com.vn\/storage\/top-banner-giao-nhanh-mien-phi.png"
+            "image": "shopify:\/\/shop_images\/top-banner-chinh-sach-bao-hanh-doi-tra.webp"
           }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "6961e396-3929-4b0f-92b1-c09bbba688c0",
-        "d6a731da-736e-48ee-8c5a-a03818af0689"
+        "sections--20310829596964__284e3842-085c-4b7a-ad19-17e69350b210-image-item-1",
+        "sections--20310829596964__284e3842-085c-4b7a-ad19-17e69350b210-image-item-2",
+        "sections--20310829596964__284e3842-085c-4b7a-ad19-17e69350b210-image-item-3"
       ],
       "settings": {
-        "color_scheme": "",
-        "show_line_separator": true,
-        "show_social": false,
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "enable_country_selector": false,
-        "enable_language_selector": false
+        "bg_color": "#e9efff"
       }
     },
     "header": {
@@ -65,7 +53,7 @@
     }
   },
   "order": [
-    "announcement-bar",
+    "284e3842-085c-4b7a-ad19-17e69350b210",
     "header"
   ]
 }
