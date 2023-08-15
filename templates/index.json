@@ -1,5 +1,33 @@
 {
   "sections": {
+    "52d35b0c-bbf4-4a91-8b58-1f0124c911f9": {
+      "type": "top-annoucement",
+      "blocks": {
+        "template--20310829924644__52d35b0c-bbf4-4a91-8b58-1f0124c911f9-image-item-1": {
+          "type": "image-item",
+          "settings": {
+          }
+        },
+        "template--20310829924644__52d35b0c-bbf4-4a91-8b58-1f0124c911f9-image-item-2": {
+          "type": "image-item",
+          "settings": {
+          }
+        },
+        "template--20310829924644__52d35b0c-bbf4-4a91-8b58-1f0124c911f9-image-item-3": {
+          "type": "image-item",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--20310829924644__52d35b0c-bbf4-4a91-8b58-1f0124c911f9-image-item-1",
+        "template--20310829924644__52d35b0c-bbf4-4a91-8b58-1f0124c911f9-image-item-2",
+        "template--20310829924644__52d35b0c-bbf4-4a91-8b58-1f0124c911f9-image-item-3"
+      ],
+      "settings": {
+        "bg_color": "#e9efff"
+      }
+    },
     "24e33cbf-a266-4b38-8bbb-1677f2c2eaff": {
       "type": "primary-secondary-section",
       "blocks": {
@@ -63,7 +91,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Điện thoại nổi bật nhất",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -87,45 +115,6 @@
         "padding_bottom": 36
       }
     },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "video": {
       "type": "video",
       "settings": {
@@ -136,59 +125,6 @@
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -239,74 +175,13 @@
         "padding_top": 32,
         "padding_bottom": 36
       }
-    },
-    "adfdb998-2224-4cb4-822c-62ecf459b3cd": {
-      "type": "primary-secondary-section",
-      "blocks": {
-        "template--20310829924644__adfdb998-2224-4cb4-822c-62ecf459b3cd-slide-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ipadth7-new.webp"
-          }
-        },
-        "template--20310829924644__adfdb998-2224-4cb4-822c-62ecf459b3cd-slide-2": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/linh-vat-sliding-1.webp"
-          }
-        },
-        "template--20310829924644__adfdb998-2224-4cb4-822c-62ecf459b3cd-slide-3": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hot-30-sliding-0012.webp"
-          }
-        },
-        "template--20310829924644__adfdb998-2224-4cb4-822c-62ecf459b3cd-right-banner-item-1": {
-          "type": "right-banner-item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ipadth7-new.webp"
-          }
-        },
-        "template--20310829924644__adfdb998-2224-4cb4-822c-62ecf459b3cd-right-banner-item-2": {
-          "type": "right-banner-item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/rightbannerts9.webp"
-          }
-        },
-        "template--20310829924644__adfdb998-2224-4cb4-822c-62ecf459b3cd-right-banner-item-3": {
-          "type": "right-banner-item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/rightbannerts9.webp"
-          }
-        }
-      },
-      "block_order": [
-        "template--20310829924644__adfdb998-2224-4cb4-822c-62ecf459b3cd-slide-1",
-        "template--20310829924644__adfdb998-2224-4cb4-822c-62ecf459b3cd-slide-2",
-        "template--20310829924644__adfdb998-2224-4cb4-822c-62ecf459b3cd-slide-3",
-        "template--20310829924644__adfdb998-2224-4cb4-822c-62ecf459b3cd-right-banner-item-1",
-        "template--20310829924644__adfdb998-2224-4cb4-822c-62ecf459b3cd-right-banner-item-2",
-        "template--20310829924644__adfdb998-2224-4cb4-822c-62ecf459b3cd-right-banner-item-3"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
     }
   },
   "order": [
+    "52d35b0c-bbf4-4a91-8b58-1f0124c911f9",
     "24e33cbf-a266-4b38-8bbb-1677f2c2eaff",
     "featured_collection",
-    "collage",
     "video",
-    "multicolumn",
-    "b7a581ff-6380-4455-b174-d6f92afaa493",
-    "adfdb998-2224-4cb4-822c-62ecf459b3cd"
+    "b7a581ff-6380-4455-b174-d6f92afaa493"
   ]
 }
