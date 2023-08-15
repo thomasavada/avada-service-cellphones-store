@@ -1,16 +1,31 @@
-<div>Primary Section here</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            One of three columns
+        </div>
+        <div class="col-sm">
+            One of three columns
+        </div>
+        <div class="col-sm">
+            One of three columns
+        </div>
+    </div>
+</div>
 
 {% schema %}
 {
   "name": "Primary Secondary Section",
-  "settings": [],
+  "class": "section",
   "tag": "section",
-  "class": "section"
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+
+  "presets": [
+    {
+      "name": "Primary Secondary Section"
+    }
+  ],
+  "settings": []
 }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
