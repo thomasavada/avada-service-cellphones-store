@@ -234,13 +234,17 @@
         <div class="col-sm-3">
             <div class='row flex-column'>
                 {%- for block in section.blocks -%}
-                    {% if block.type == 'right-banner-item' and block.settings.image %}
+                    {% if block.type == 'right-banner-item' %}
                         <div class='col-12'>
-                            {{
-                            block.settings.image
-                            | image_url: width: 600
-                            | image_tag: loading: 'lazy', sizes: sizes, widths: widths, width: '100%', height: 'auto'
-                            }}
+                            {%- if block.settings.image -%}
+                                {{
+                                block.settings.image
+                                | image_url: width: 600
+                                | image_tag: loading: 'lazy', sizes: sizes, widths: widths, width: '100%', height: 'auto'
+                                }}
+                            {%- else -%}
+                                {{ 'hero-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
+                            {%- endif -%}
                         </div>
                     {% endif %}
                 {%- endfor -%}
@@ -323,7 +327,7 @@
           "label": "t:sections.slideshow.settings.slide_height.options__4.label"
         }
       ],
-      "default": "medium",
+      "default": "adapt_image",
       "label": "t:sections.slideshow.settings.slide_height.label"
     },
     {
