@@ -99,3 +99,15 @@
   text-transform: uppercase;
   color: rgba(var(--color-foreground), 0.7);
 }
+
+.upgrade-price {
+  color: #d70018;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 10px!important;
+}
+
+.upgrade-title {
+  font-size: 12px;
+}
