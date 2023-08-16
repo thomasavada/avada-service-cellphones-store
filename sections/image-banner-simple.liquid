@@ -1,0 +1,64 @@
+{{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
+
+<div class="image-with-text page-width">
+    <div class="image-with-text__grid grid grid--gapless grid--1-col">
+        <div class="image-with-text__media-item grid__item">
+            <div
+                    {% if section.settings.height == 'adapt' and section.settings.image != blank %}
+                    {% endif %}
+            >
+                {%- if section.settings.image != blank -%}
+                    {{
+                    section.settings.image
+                    | image_url: width: 1200
+                    | image_tag: loading: 'lazy', width: '100%', height: 'auto'
+                    }}
+                {%- else -%}
+                    {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                {%- endif -%}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Image Banner Simple",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image Banner Simple"
+    },
+    {
+      "type": "select",
+      "id": "height",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "Adapt"
+        },
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "adapt",
+      "label": "t:sections.image-with-text.settings.height.label"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image Banner Simple"
+    }
+  ]
+}
+{% endschema %}

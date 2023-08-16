@@ -30,8 +30,14 @@
   display: inline-block;
   max-width: calc(100% - 6rem);
   min-height: 1.6rem;
-  margin: 0;
   word-break: break-word;
+  align-items: center;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  font-size: 15px;
+  margin-bottom: 0;
+  margin-top: 5px;
 }
 
 .accordion .icon-accordion {
