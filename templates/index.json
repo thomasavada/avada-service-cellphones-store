@@ -147,12 +147,30 @@
         "padding_top": 32,
         "padding_bottom": 36
       }
+    },
+    "302f7ccd-02a6-42ae-9ab5-f4cb90267f01": {
+      "type": "cell-featured-blog",
+      "settings": {
+        "heading": "TIN CÔNG NGHỆ",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 4,
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "24e33cbf-a266-4b38-8bbb-1677f2c2eaff",
     "featured_collection",
     "video",
-    "b7a581ff-6380-4455-b174-d6f92afaa493"
+    "b7a581ff-6380-4455-b174-d6f92afaa493",
+    "302f7ccd-02a6-42ae-9ab5-f4cb90267f01"
   ]
 }
