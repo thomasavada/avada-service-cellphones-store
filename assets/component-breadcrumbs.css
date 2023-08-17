@@ -1,0 +1,40 @@
+
+ul {
+    list-style: none;
+    padding:20px;
+}
+
+.cellphones-blog-breadcrumbs {
+    max-width: var(--page-width);
+    margin: 0 auto;
+}
+
+ul li{
+    display:inline;
+    background-color:transparent;
+}
+
+/* shapeed container */
+.breadcrumbs {
+    text-align:left;
+}
+
+.breadcrumb-link a{
+    text-decoration:none;
+    color:#000000;
+    background-color:transparent;
+}
+
+.breadcrumbs li+li:before{
+    padding:16px;
+    content:">";
+    color: rgba(var(--color-button));
+    background-color:transparent;
+}
+
+
+/* emphasis on the last link Headphones */
+li:last-child a{
+    font-weight: bold;
+    color: rgba(var(--color-button));
+}
