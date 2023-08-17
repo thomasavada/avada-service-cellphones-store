@@ -2,6 +2,37 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "923dc130-ba6c-4bab-b852-0dca5b43e65d": {
+      "type": "top-annoucement",
+      "blocks": {
+        "sections--20310829596964__923dc130-ba6c-4bab-b852-0dca5b43e65d-image-item-1": {
+          "type": "image-item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/top-banner-giao-nhanh-mien-phi.webp"
+          }
+        },
+        "sections--20310829596964__923dc130-ba6c-4bab-b852-0dca5b43e65d-image-item-2": {
+          "type": "image-item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/top-banner-chinh-hang-xuat-vat-day-du.webp"
+          }
+        },
+        "sections--20310829596964__923dc130-ba6c-4bab-b852-0dca5b43e65d-image-item-3": {
+          "type": "image-item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/top-banner-chinh-sach-bao-hanh-doi-tra.webp"
+          }
+        }
+      },
+      "block_order": [
+        "sections--20310829596964__923dc130-ba6c-4bab-b852-0dca5b43e65d-image-item-1",
+        "sections--20310829596964__923dc130-ba6c-4bab-b852-0dca5b43e65d-image-item-2",
+        "sections--20310829596964__923dc130-ba6c-4bab-b852-0dca5b43e65d-image-item-3"
+      ],
+      "settings": {
+        "bg_color": "#e9efff"
+      }
+    },
     "header": {
       "type": "header",
       "settings": {
@@ -19,41 +50,10 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
-    },
-    "092d69e4-1fc0-406a-aa51-93a5e1840843": {
-      "type": "top-annoucement",
-      "blocks": {
-        "sections--20310829596964__092d69e4-1fc0-406a-aa51-93a5e1840843-image-item-1": {
-          "type": "image-item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/top-banner-giao-nhanh-mien-phi.webp"
-          }
-        },
-        "sections--20310829596964__092d69e4-1fc0-406a-aa51-93a5e1840843-image-item-2": {
-          "type": "image-item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/top-banner-chinh-hang-xuat-vat-day-du.webp"
-          }
-        },
-        "sections--20310829596964__092d69e4-1fc0-406a-aa51-93a5e1840843-image-item-3": {
-          "type": "image-item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/top-banner-chinh-sach-bao-hanh-doi-tra.webp"
-          }
-        }
-      },
-      "block_order": [
-        "sections--20310829596964__092d69e4-1fc0-406a-aa51-93a5e1840843-image-item-1",
-        "sections--20310829596964__092d69e4-1fc0-406a-aa51-93a5e1840843-image-item-2",
-        "sections--20310829596964__092d69e4-1fc0-406a-aa51-93a5e1840843-image-item-3"
-      ],
-      "settings": {
-        "bg_color": "#e9efff"
-      }
     }
   },
   "order": [
-    "header",
-    "092d69e4-1fc0-406a-aa51-93a5e1840843"
+    "923dc130-ba6c-4bab-b852-0dca5b43e65d",
+    "header"
   ]
 }
