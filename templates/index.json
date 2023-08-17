@@ -59,6 +59,13 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "9a9b7ed2-9522-4d8d-9251-bcddff4f5acd": {
+      "type": "image-banner-simple",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/b2s-special-desktop-dday-p1_fb86cd0b-4992-4883-9dc3-93c2e43a276b.webp",
+        "height": "adapt"
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -168,6 +175,7 @@
   },
   "order": [
     "24e33cbf-a266-4b38-8bbb-1677f2c2eaff",
+    "9a9b7ed2-9522-4d8d-9251-bcddff4f5acd",
     "featured_collection",
     "video",
     "b7a581ff-6380-4455-b174-d6f92afaa493",
