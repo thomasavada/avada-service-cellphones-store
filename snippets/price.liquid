@@ -102,14 +102,17 @@
         {{ money_price }}
       </span>
     </div>
-    <div class="upgrade__price">
-      <span class="upgrade-title">Giá lên đời:</span>
-      <span
-        class="upgrade-price"
-      >
-        {{- upgrade_price | money_with_currency -}}
-      </span>
-    </div>
+    <div>Gia len doi</div>
+    {% if upgrade_price %}
+      <div class="upgrade__price">
+        <span class="upgrade-title">Giá lên đời:</span>
+        <span
+          class="upgrade-price"
+        >
+          {{- upgrade_price | money_with_currency -}}
+        </span>
+      </div>
+    {% endif %}
 
     <small class="unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">
       <span class="visually-hidden">{{ 'products.product.price.unit_price' | t }}</span>
