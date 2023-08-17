@@ -1,6 +1,6 @@
-<div class="row test-class" style="background: {{ section.settings.bg_color }};min-height: 3.8rem;">
+<div class="row test-class" style="background: {{ section.settings.bg_color }};max-height: 2.5rem;">
   {%- for block in section.blocks -%}
-    <div class="col-sm-4">
+    <div class="col-sm-4" style="display: flex; justify-content: center;align-items: center">
       {%- if block.settings.image -%}
         {{
         block.settings.image
