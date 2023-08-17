@@ -550,7 +550,6 @@
           {{ 'products.product.view_full_details' | t }}
           {% render 'icon-arrow' %}
         </a>
-                          <div>Upgrade price: {{ product.selected_or_first_available_variant.metafields.custom.upgrade_version_price.value  | money_with_currency  }}</div>
       </product-info>
     </div>
     {%- if section.settings.media_position == 'right' -%}
