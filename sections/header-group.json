@@ -2,22 +2,22 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "923dc130-ba6c-4bab-b852-0dca5b43e65d": {
+    "a3b94092-317e-46c0-8894-515663ce0bba": {
       "type": "top-annoucement",
       "blocks": {
-        "sections--20310829596964__923dc130-ba6c-4bab-b852-0dca5b43e65d-image-item-1": {
+        "sections--20310829596964__a3b94092-317e-46c0-8894-515663ce0bba-image-item-1": {
           "type": "image-item",
           "settings": {
             "image": "shopify:\/\/shop_images\/top-banner-giao-nhanh-mien-phi.webp"
           }
         },
-        "sections--20310829596964__923dc130-ba6c-4bab-b852-0dca5b43e65d-image-item-2": {
+        "sections--20310829596964__a3b94092-317e-46c0-8894-515663ce0bba-image-item-2": {
           "type": "image-item",
           "settings": {
             "image": "shopify:\/\/shop_images\/top-banner-chinh-hang-xuat-vat-day-du.webp"
           }
         },
-        "sections--20310829596964__923dc130-ba6c-4bab-b852-0dca5b43e65d-image-item-3": {
+        "sections--20310829596964__a3b94092-317e-46c0-8894-515663ce0bba-image-item-3": {
           "type": "image-item",
           "settings": {
             "image": "shopify:\/\/shop_images\/top-banner-chinh-sach-bao-hanh-doi-tra.webp"
@@ -25,9 +25,9 @@
         }
       },
       "block_order": [
-        "sections--20310829596964__923dc130-ba6c-4bab-b852-0dca5b43e65d-image-item-1",
-        "sections--20310829596964__923dc130-ba6c-4bab-b852-0dca5b43e65d-image-item-2",
-        "sections--20310829596964__923dc130-ba6c-4bab-b852-0dca5b43e65d-image-item-3"
+        "sections--20310829596964__a3b94092-317e-46c0-8894-515663ce0bba-image-item-1",
+        "sections--20310829596964__a3b94092-317e-46c0-8894-515663ce0bba-image-item-2",
+        "sections--20310829596964__a3b94092-317e-46c0-8894-515663ce0bba-image-item-3"
       ],
       "settings": {
         "bg_color": "#e9efff"
@@ -53,7 +53,7 @@
     }
   },
   "order": [
-    "923dc130-ba6c-4bab-b852-0dca5b43e65d",
+    "a3b94092-317e-46c0-8894-515663ce0bba",
     "header"
   ]
 }
