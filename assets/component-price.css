@@ -102,7 +102,7 @@
 
 .upgrade-price {
   color: rgba(var(--color-button));
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 1.1;
   margin-bottom: 10px!important;
@@ -110,4 +110,11 @@
 
 .upgrade-title {
   font-size: 12px;
+}
+
+.price-item--last {
+  color: rgba(var(--color-button));
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.1;
 }
