@@ -94,6 +94,44 @@
         "padding_bottom": 36
       }
     },
+    "1570cc83-1f48-42e2-b83c-cd4682d59592": {
+      "type": "theme-blog-image",
+      "blocks": {
+        "template--20310829924644__1570cc83-1f48-42e2-b83c-cd4682d59592-image-item-1": {
+          "type": "image-item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner-uu-dai-shopeepay.webp"
+          }
+        },
+        "template--20310829924644__1570cc83-1f48-42e2-b83c-cd4682d59592-image-item-2": {
+          "type": "image-item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sliding-vpbank-bew0995.webp"
+          }
+        },
+        "template--20310829924644__1570cc83-1f48-42e2-b83c-cd4682d59592-image-item-3": {
+          "type": "image-item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner-sli-vib.webp"
+          }
+        },
+        "template--20310829924644__1570cc83-1f48-42e2-b83c-cd4682d59592-image-item-4": {
+          "type": "image-item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner-uu-dai-shopeepay.webp"
+          }
+        }
+      },
+      "block_order": [
+        "template--20310829924644__1570cc83-1f48-42e2-b83c-cd4682d59592-image-item-1",
+        "template--20310829924644__1570cc83-1f48-42e2-b83c-cd4682d59592-image-item-2",
+        "template--20310829924644__1570cc83-1f48-42e2-b83c-cd4682d59592-image-item-3",
+        "template--20310829924644__1570cc83-1f48-42e2-b83c-cd4682d59592-image-item-4"
+      ],
+      "settings": {
+        "heading": "Ưu đãi thanh toán"
+      }
+    },
     "b7a581ff-6380-4455-b174-d6f92afaa493": {
       "type": "collection-list",
       "blocks": {
@@ -157,52 +195,14 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "1570cc83-1f48-42e2-b83c-cd4682d59592": {
-      "type": "theme-blog-image",
-      "blocks": {
-        "template--20310829924644__1570cc83-1f48-42e2-b83c-cd4682d59592-image-item-1": {
-          "type": "image-item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner-uu-dai-shopeepay.webp"
-          }
-        },
-        "template--20310829924644__1570cc83-1f48-42e2-b83c-cd4682d59592-image-item-2": {
-          "type": "image-item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Sliding-vpbank-bew0995.webp"
-          }
-        },
-        "template--20310829924644__1570cc83-1f48-42e2-b83c-cd4682d59592-image-item-3": {
-          "type": "image-item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner-sli-vib.webp"
-          }
-        },
-        "template--20310829924644__1570cc83-1f48-42e2-b83c-cd4682d59592-image-item-4": {
-          "type": "image-item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner-uu-dai-shopeepay.webp"
-          }
-        }
-      },
-      "block_order": [
-        "template--20310829924644__1570cc83-1f48-42e2-b83c-cd4682d59592-image-item-1",
-        "template--20310829924644__1570cc83-1f48-42e2-b83c-cd4682d59592-image-item-2",
-        "template--20310829924644__1570cc83-1f48-42e2-b83c-cd4682d59592-image-item-3",
-        "template--20310829924644__1570cc83-1f48-42e2-b83c-cd4682d59592-image-item-4"
-      ],
-      "settings": {
-        "heading": "Ưu đãi thanh toán"
-      }
     }
   },
   "order": [
     "24e33cbf-a266-4b38-8bbb-1677f2c2eaff",
     "9a9b7ed2-9522-4d8d-9251-bcddff4f5acd",
     "featured_collection",
+    "1570cc83-1f48-42e2-b83c-cd4682d59592",
     "b7a581ff-6380-4455-b174-d6f92afaa493",
-    "302f7ccd-02a6-42ae-9ab5-f4cb90267f01",
-    "1570cc83-1f48-42e2-b83c-cd4682d59592"
+    "302f7ccd-02a6-42ae-9ab5-f4cb90267f01"
   ]
 }
