@@ -1,5 +1,10 @@
 {
   "sections": {
+    "d8c6562c-55d9-49ee-9125-44d39f353a39": {
+      "type": "breadcrumbs",
+      "settings": {
+      }
+    },
     "24e33cbf-a266-4b38-8bbb-1677f2c2eaff": {
       "type": "primary-secondary-section",
       "blocks": {
@@ -198,6 +203,7 @@
     }
   },
   "order": [
+    "d8c6562c-55d9-49ee-9125-44d39f353a39",
     "24e33cbf-a266-4b38-8bbb-1677f2c2eaff",
     "9a9b7ed2-9522-4d8d-9251-bcddff4f5acd",
     "featured_collection",
